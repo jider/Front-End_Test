@@ -1,0 +1,26 @@
+{
+  "name": "Front-End_Test",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jider/Front-End_Test",
+  "authors": [
+    "Ignacio Díaz Rovina <velanor@gmail.com>"
+  ],
+  "keywords": [
+    "Front-End",
+    "Workflow"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "jQuery": "~2.1.4",
+    "fontawesome": "~4.3.0",
+    "modernizr": "~2.8.3"
+  }
+}
