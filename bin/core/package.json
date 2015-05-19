@@ -1,0 +1,23 @@
+{
+  "name": "core",
+  "version": "0.0.1",
+  "description": "Aplicación CORE del entorno de maquetación",
+  "main": "core.js",
+  "keywords": [
+    "Documentación",
+    "Repositorio",
+    "CORE"
+  ],
+  "author": "Ignacio Díaz Rovina",
+  "license": "MIT",
+  "scripts": {
+    "start": "node core.js"
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-handlebars": "^2.0.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  }
+}

@@ -1,39 +1,22 @@
 {
   "name": "Front-End_Test",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "",  
   "scripts": {
-    "start": "bower install"
+    "env": "env",
+    "postinstall": "bower --allow-root cache clean  && bower --allow-root install",
+    "clean:dependencies": "rm -r node_modules && rm -rf app/components",
+    "clean": "rm -r bin/dist"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/jider/Front-End_Test.git"
   },
-  "keywords": [
-    "Front-End",
-    "Workflow"
-  ],
+  "keywords": [],
   "author": "Ignacio Díaz Rovina",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jider/Front-End_Test/issues"
   },
-  "homepage": "https://github.com/jider/Front-End_Test",
-  "devDependencies": {
-    "express": "^4.12.3",
-    "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.2.0",
-    "gulp-concat": "^2.5.2",
-    "gulp-jshint": "^1.10.0",
-    "gulp-rimraf": "^0.1.1",
-    "gulp-sass": "^2.0.1",
-    "gulp-uglify": "^1.2.0",
-    "gulp-watch": "^4.2.4",
-    "jshint-stylish": "^1.0.2",
-    "requirejs": "^2.1.17"
-  },
-  "dependencies": {
-    "bower": "^1.4.1"
-  }
+  "homepage": "https://github.com/jider/Front-End_Test"
 }

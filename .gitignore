@@ -44,8 +44,4 @@ Temporary Items
 
 # Project Directories
 node_modules
-node_modules/**
-bower_components
-bower_components/**
-app/components
-app/components/**
+node_modules/*
