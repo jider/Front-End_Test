@@ -2,10 +2,7 @@
   "name": "Front-End_Test",
   "version": "0.0.1",
   "description": "",  
-  "scripts": {
-    "env": "env",
-    "postinstall": "bower --allow-root cache clean  && bower --allow-root install",
-    "clean:dependencies": "rm -r node_modules && rm -rf app/components",
+  "scripts": {    
     "clean": "rm -r bin/dist"
   },
   "repository": {

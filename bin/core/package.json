@@ -11,7 +11,10 @@
   "author": "Ignacio Díaz Rovina",
   "license": "MIT",
   "scripts": {
-    "start": "node core.js"
+    "env": "env",
+    "start": "node core.js",
+    "postinstall": "bower --allow-root cache clean  && bower --allow-root install",
+    "clean:dependencies": "rm -rf node_modules && rm -rf bower_components"
   },
   "dependencies": {
     "express": "^4.12.4",
